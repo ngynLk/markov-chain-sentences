@@ -8,7 +8,7 @@ A text is passed to it and used as a base to choose the words from. Starting fro
 
 > How does it work? 
 
-It is written in the form of a Python class `MarkovClass` with four methods `find_next`, `find_ender`, `make_sentence` and `make_text` (`find_ender` is used to find words that are at the end of sentences to have more sensible results)
+It is written in the form of a Python class `MarkovClass` with four methods `find_next`, `_find_ender`, `make_sentence` and `make_text` (`_find_ender` is used to find words that are at the end of sentences to have more sensible results)
 
 A simple CLI front-end may be written afterwards
 
